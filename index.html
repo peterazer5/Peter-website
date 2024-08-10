@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- font awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!--file-styles.css -->
+   <link rel="stylesheet" href="styles.css">
+   <title>Peter Azer Frontend web developer</title>
+ </head>
+   <body> 
+
+               <!--section 01 , 02-->
+
+      <!--Home Start-->
+        <header id="home">
+            <div class="navbar">
+              <nav>
+                <a href="#home" id="logo">Peter Azer</a>
+                <ul>
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#Skills"> Skills</a></li>
+                  <li><a href="#Projects">Projects</a></li>
+                  <li><a href="#Social">Social Media</a></li>
+                  <li><a href="#Contact">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="header-content">
+              <div class="content-text">
+                <p><span class="text-primary">HI There I'm</span></p>
+                <h1>Peter Azer</h1>
+                <p class="title">Frontend web developer</p>
+              </div>
+              <img src="PETER.png" alt="peterazer">
+            </div>
+        </header>
+      <!--Home End-->
+
+               <!--section 03-->
+
+      <!--Skills start-->
+        <section id="Skills">
+            <div class="container">
+                <h2>
+                <i class="fa-solid fa-laptop-code"></i>Skills & <span class="text-primary">Abilities</span>
+                </h2>
+                <hr>
+              <div class="Skills-container">
+                <div class="row">
+                  <div class="item">
+                     <img src="HTML5_logo.svg" alt="HTML">
+                     <p>HTML</p>
+                  </div>
+                  <div class="item">
+                     <img src="CSS3_logo.svg" alt="CSS3">
+                     <P>CSS</P>
+                  </div>
+                  <div class="item">
+                     <img src="avaScri.svg" alt="avaScri">
+                     <P>JS</P>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+      <!--Skitts End-->
+          
+              <!--section 04-->
+
+      <!--Projects Start-->
+        <section id="Projects">
+          <div class="container">
+            <div class="heading">
+              <img src="Services.png" alt="Projects">
+              <h2>My <span class="text-primary">Projects</span>
+              <hr>
+              </h2>
+           
+            </div>
+            <div class="row">
+              <div class="item">
+                <img src="TASK01.png" alt="TASK01">
+                <h3>First Project</h3>
+                <p>This project was designed using HTML and CSS. Displays a business card containing the name "Peter Azer Said" and basic contact information such as email and phone number. This project aims to provide a simple and effective form of digital business cards that can be used on personal or professional websites.</p>
+              </div>
+              <div class="item">
+                <img src="TASK02.png" alt="TASK02">
+                <h3>Second Project</h3>
+                <p>This project was designed using HTML and CSS. It consists of four sections: the first section includes a photo, my name, and the title "Web Developer"; the second section contains links to social media pages like Facebook, LinkedIn, and Gmail; the third section includes a photo with a description; and the fourth section features three photos, each with the title "Web Developer" underneath.</p>
+              </div>
+              <div class="item">
+                <img src="TASK03.png" alt="TASK03">
+                <h3>Third Project</h3>
+                <p>This project was designed using HTML, CSS, and JavaScript. It features an interactive web interface that allows users to input text, save it to the browser's local storage, and retrieve it later. This project demonstrates how web technologies can be used to create interactive and persistent user experiences without the need for server-side storage.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      <!--Projects End-->
+
+                <!--section 05-->
+
+      <!-- Social Start -->
+       <section id="Social">
+        <div class="container">
+          <h2>
+            <i class="fa-solid fa-hashtag"></i>Social& <span class="text-primary">Media</span>
+          </h2>
+          <hr>
+          <div class="social">
+            <a href="https://www.facebook.com/profile.php?id=100037047851933&mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/peter-azer-9b344a1b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/peterazer5?igsh=MXZ6MnJranhybXFqZA==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/peterazer5" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://x.com/PeterAzer45?t=j1cZDctFUNMj-9GVTBXmCw&s=09" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+   
+        </div>
+       </section>
+      <!-- Social End --> 
+
+               <!-- section 06 -->
+      <!-- Contact Start -->
+        <section id="Contact">
+          <div class="contact-form">
+            <div class="form-column">
+              <img src="form.png" alt="" class="contact-image">
+            </div>
+            <div class="form-column">
+              <form id="contactForm">
+                <label for="username"><p>user name</p></label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="email"><p>E-mail</p></label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="requestType"><p>Type of Request</p></label>
+                <select id="requestType" name="requestType" required>
+                  <option value="consultation"><p>consultation</p></option>
+                  <option value="job"><p>job opportunity</p></option>
+                </select>
+                
+                <label for="message"><p>the message</p></label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">send</button>
+                <button type="reset">evacuation</button>
+              </form>
+            </div>
+          </div>
+        </section>
+      <!-- Contact End -->
+        <!-- file-script.js -->
+     <script src="script.js"></script>
+  </body>
+</html>
